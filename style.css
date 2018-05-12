@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  text-align: center;
+}
+
+.main {
+  width: 75vw;
+  height: 90vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  box-shadow: 0 0.5vmin 3vmin rgba(0,0,0,.09);
+  background-color: #ff8585;
+  border: hidden;
+  border-radius: 0.85vmin;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 45vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 0.5vmin solid black;
+}
+
+.childs {
+  padding: 2vmin;
+  margin: 2vmin;
+  border: 0.5vmin solid black;
+
+}
