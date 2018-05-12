@@ -38,8 +38,19 @@ body {
 }
 
 .childs {
+  width: 25%;
+  height: 20%;
   padding: 2vmin;
   margin: 2vmin;
+}
+
+.childs:nth-child(2) {
+  width: 10%;
+  height: 10%
+}
+
+.div-content > div {
   border: 0.5vmin solid black;
+  margin: 2vmin;
 
 }
