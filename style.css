@@ -6,22 +6,46 @@
 }
 
 
+/*header {
+  width: 100vw;
+}*/
+
 video {
     width: 100%;
+    /*padding: 2vmin;
+    margin: 2vmin;
+    border: 1px solid black;*/
+
 /*    filter: brightness(50%);*/
 }
+
+/*video source {*/
+  /*border: 1px solid black;
+  width: 55vw;
+  height: 122px;
+}*/
 
 main {
     width: 90%;
     height: 45vh;
-    margin: 50px auto;
+    margin: auto;
     padding: 2vmin;
+    /*position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;*/
 }
 
 .content {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+}
+
+.walk, .event {
+border-radius: 10px 20px;
+box-shadow: 0.5vmin 2.5vmin 4vmin 1vmin rgba(0, 0, 0, 0.5);
 }
 
 .walk {
@@ -86,8 +110,8 @@ main {
     border: 1px solid #bbb;
     border-left: 0px;
     border-right: 0px;
-    padding: 10px;
-    width: 100%;
+    padding: 2vmin;
+    width: 15%;
     text-align: center;
     color: #aaa;
 }
@@ -104,7 +128,8 @@ h3 {
 }
 
 .police img {
-    width: 20vmin;
+  width: 40vmin;
+  height: 30vmin;
     float: left;
     margin: 10px 10px 0px 0px;
     border: 3px solid #bbb;
@@ -112,8 +137,9 @@ h3 {
 }
 
 .nation img {
-    width: 20vmin;
-    float: right;
+  width: 40vmin;
+  height: 30vmin;
+      float: right;
     margin: 10px 0px 0px 10px;
     border: 3px solid #bbb;
 }
@@ -129,22 +155,22 @@ h3 {
 }
 
 @media only screen and (max-width: 1280px) {
-    
+
     .event {
-        height: 90vw;    
+        height: 90vw;
     }
 }
 
 @media only screen and (max-width: 720px) {
-    
+
     p {
-        font-size: 14px;    
+        font-size: 14px;
     }
-    
+
     .event {
-        height: 100vw;    
+        height: 75vw;
     }
-    
+
     .police img {
         width: 100%;
     }
@@ -152,15 +178,15 @@ h3 {
     .event p {
         font-size: 14px;
     }
-    
+
     .police {
         text-align: justify;
     }
-    
+
     h3 {
         text-align: center;
     }
-    
+
     .nation img {
         width: 100%;
     }
